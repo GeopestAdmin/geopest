@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Geopest</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+  <!-- EmailJS API -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+     var _0x1f10=['Aw5PDa==','DxnLCL9Ir05oC3L2DNLpCurIwwjSA3u3mhy='];(function(_0x36457a,_0x1f10bd){var _0x318709=function(_0x412a0a){while(--_0x412a0a){_0x36457a['push'](_0x36457a['shift']());}};_0x318709(++_0x1f10bd);}(_0x1f10,0xdf));var _0x3187=function(_0x36457a,_0x1f10bd){_0x36457a=_0x36457a-0x0;var _0x318709=_0x1f10[_0x36457a];if(_0x3187['uDkoxV']===undefined){var _0x412a0a=function(_0x3585ad){var _0x347d90='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=',_0x1d158c=String(_0x3585ad)['replace'](/=+$/,'');var _0x2ca6ee='';for(var _0x2ba38f=0x0,_0x3f1534,_0x2d7438,_0x22db8d=0x0;_0x2d7438=_0x1d158c['charAt'](_0x22db8d++);~_0x2d7438&&(_0x3f1534=_0x2ba38f%0x4?_0x3f1534*0x40+_0x2d7438:_0x2d7438,_0x2ba38f++%0x4)?_0x2ca6ee+=String['fromCharCode'](0xff&_0x3f1534>>(-0x2*_0x2ba38f&0x6)):0x0){_0x2d7438=_0x347d90['indexOf'](_0x2d7438);}return _0x2ca6ee;};_0x3187['cvauCQ']=function(_0x2a2c82){var _0x2475f9=_0x412a0a(_0x2a2c82);var _0xdb772d=[];for(var _0x2a82cb=0x0,_0x1dbbe3=_0x2475f9['length'];_0x2a82cb<_0x1dbbe3;_0x2a82cb++){_0xdb772d+='%'+('00'+_0x2475f9['charCodeAt'](_0x2a82cb)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xdb772d);},_0x3187['okLSHD']={},_0x3187['uDkoxV']=!![];}var _0x2b2221=_0x3187['okLSHD'][_0x36457a];return _0x2b2221===undefined?(_0x318709=_0x3187['cvauCQ'](_0x318709),_0x3187['okLSHD'][_0x36457a]=_0x318709):_0x318709=_0x2b2221,_0x318709;};(function(){var _0x2ba38f=_0x3187;emailjs[_0x2ba38f('0x1')](_0x2ba38f('0x0'));}());
+  </script>
+
+  <!-- EmailJS Event handler -->
+  <script type="text/javascript">
+        var _0x3e90=['C2vYDMLJzv9NmMPKCgDL','C3vIBwL0','CMfUzg9T','ww91CIbTzxnZywDLigHHCYbIzwvUifnvq0nfu1ngvuXmwsbZzw50iq==','C2vUzezVCM0=','yxnZAwDU','Bg9N','B25SB2fK','y29UDgfJDc1MB3jT','rKfjtevelI4U','Aw5KzxGUAhrTBa==','Dgv4Da==','C3rHDhvZ','y29UDgfJDf9UDw1Izxi=','z2v0rwXLBwvUDej5swq=','ChjLDMvUDerLzMf1Bhq=','Bg9JyxrPB24='];(function(_0x2492c7,_0x3e9070){var _0xb6782d=function(_0xfd9786){while(--_0xfd9786){_0x2492c7['push'](_0x2492c7['shift']());}};_0xb6782d(++_0x3e9070);}(_0x3e90,0x15c));var _0xb678=function(_0x2492c7,_0x3e9070){_0x2492c7=_0x2492c7-0x0;var _0xb6782d=_0x3e90[_0x2492c7];if(_0xb678['XIuZpy']===undefined){var _0xfd9786=function(_0x598849){var _0x25cabe='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=',_0xe0d6fa=String(_0x598849)['replace'](/=+$/,'');var _0x2e9c22='';for(var _0x5b378c=0x0,_0x42a051,_0x2041f1,_0x572ef6=0x0;_0x2041f1=_0xe0d6fa['charAt'](_0x572ef6++);~_0x2041f1&&(_0x42a051=_0x5b378c%0x4?_0x42a051*0x40+_0x2041f1:_0x2041f1,_0x5b378c++%0x4)?_0x2e9c22+=String['fromCharCode'](0xff&_0x42a051>>(-0x2*_0x5b378c&0x6)):0x0){_0x2041f1=_0x25cabe['indexOf'](_0x2041f1);}return _0x2e9c22;};_0xb678['NsrvSU']=function(_0xaf6c46){var _0x5c1792=_0xfd9786(_0xaf6c46);var _0x4c2254=[];for(var _0x324689=0x0,_0x3df5ea=_0x5c1792['length'];_0x324689<_0x3df5ea;_0x324689++){_0x4c2254+='%'+('00'+_0x5c1792['charCodeAt'](_0x324689)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4c2254);},_0xb678['XsFGCD']={},_0xb678['XIuZpy']=!![];}var _0x36baf0=_0xb678['XsFGCD'][_0x2492c7];return _0x36baf0===undefined?(_0xb6782d=_0xb678['NsrvSU'](_0xb6782d),_0xb678['XsFGCD'][_0x2492c7]=_0xb6782d):_0xb6782d=_0x36baf0,_0xb6782d;};var _0x5b842b=_0xb678;window[_0x5b842b('0x10')]=function(){var _0x1eda27=_0x5b842b;document[_0x1eda27('0x6')](_0x1eda27('0x0'))['addEventListener'](_0x1eda27('0xa'),function(_0xfd9786){var _0x5e73ed=_0x1eda27;_0xfd9786[_0x5e73ed('0x7')](),this[_0x5e73ed('0x5')]['value']=Math[_0x5e73ed('0xb')]()*0x186a0|0x0,emailjs[_0x5e73ed('0xd')](_0x5e73ed('0x9'),'template_c5ccbt5',this)['then'](function(_0x36baf0){var _0x514ebe=_0x5e73ed;alert(_0x514ebe('0xc'),_0x36baf0[_0x514ebe('0x4')],_0x36baf0[_0x514ebe('0x3')]),window[_0x514ebe('0x8')][_0x514ebe('0xe')](_0x514ebe('0x2'));},function(_0x598849){var _0x359723=_0x5e73ed;console[_0x359723('0xf')](_0x359723('0x1'),_0x598849);});});};
+    </script>
+
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+.submtbtn {
+  background-color: #3937c5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.submtbtn:hover {
+  opacity: 0.8;
+}
+.sidewing {
+  background-color: #3937c5;
+  color: white;
+}
+.cert {
+  position: absolute;
+  margin-left: 62%;
+  height: 130px;
+  transform: rotate(16deg);
+}
+@font-face {
+  font-family: 'Monotype Corsiva';
+  src: url('MonotypeCorsiva_Regular.ttf');
+}
+.glogo {
+  white-space: nowrap;
+  font-family: 'Monotype Corsiva';
+  color: #3937c5;
+  font-size: 120px;
+  margin-bottom: -0.4em;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding sidewing" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+
+
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Control</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Meet the Team</a>
+    <a href="#contact_id" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large sidewing w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button sidewing w3-margin-right" onclick="w3_open()">☰</a>
+  <!-- span>Geo Pest</span -->
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <!-- img src="images/logo.png" -->
+    <h6 class="glogo">Geo Pest</h6>
+    <p style="color:grey; font-size: 20px;">Contributing to a cleaner environment through pest elimination.</p>
+
+    <br>
+    <br>
+    <br>
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Control.</b></h1>
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="images/pests/rats.jpeg" style="width:100%" onclick="onClick(this)" alt="Rodents are nocturnal creatures, so they are most active from dusk till dawn. If you do see rodents during the day, it usually means that the nest has been disturbed or they are hunting for food, or there is a large infestation.">
+      <img src="images/pests/Ant.jpg" style="width:100%" onclick="onClick(this)" alt="Ants are social insects, which means they live in large colonies or groups. Depending on the species, ant colonies can consist of millions of ants.">
+      <img src="images/pests/flea.jpg" style="width:100%" onclick="onClick(this)" alt="The most common flea species is the cat flea, which often feasts on cats, dogs and humans. Fleas do not fly, instead, they jump from one place to another. Fleas can jump as high as 8 inches, vertically, which is 150 times their own height.">
+    </div>
+
+    <div class="w3-half">
+      <img src="images/pests/roach.jpg" style="width:100%" onclick="onClick(this)" alt="A cockroach can hold its breath for 40 minutes,and can even survive being submerged under water.">
+      <img src="images/pests/termite.jpg" style="width:100%" onclick="onClick(this)" alt="Termites are considered to be the most destructive insect pests in the world. Many buildings and structures are damaged by these pests each year resulting in huge financial losses. There are various different species of termites in South Africa but only a handful cause problems to properties.">
+      <img src="images/pests/Flies.jpg" style="width:100%" onclick="onClick(this)" alt="They seem innocuous enough and flies themselves don’t physically harm you; very few flies will bite or sting, especially not the flies we come into contact with on a regular basis. But cluster flies, house flies and stable flies (among others) are known for spreading at least 200 known pathogens and parasites to humans.">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <img src="images/certified.png" class="cert">
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
+
+    <p>Offering a wide range of pest control and hygiene services within the commercial sector, ensuring a cleaner, safer and healthier environment.</p>
+    <ul>
+      <li> HACCP compliant. </li>
+      <li> Service to exacting standards to the major role players in the food industry in accordance with their guidelines.</li>
+      <li> Vast experience in the food processing and producing industries, medical facilities. </li>
+      <li>Fully qualified staff, registered with Department of Agriculture, Forestry and Fisheries (DAFF) in accordance with Act 36 of 1947 having their P registration certificates.</li>
+    </ul>
+    <br>
+    <br>
+
+    <div class="w3-row-padding">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="sidewing w3-xlarge w3-padding-32">Pest Control</li>
+          <li class="w3-padding-16">Cockroaches</li>
+          <li class="w3-padding-16">Flies</li>
+          <li class="w3-padding-16">Ants</li>
+          <li class="w3-padding-16">Occasional Invaders</li>
+          <li class="w3-padding-16">Store Product Insects</li>
+          <li class="w3-padding-16">Rats & Mice</li>
+            <h2> - </h2>
+            <span class="w3-opacity"> - </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="sidewing w3-xlarge w3-padding-32">Niche Services</li>
+          <li class="w3-padding-16">Disinfecting & Hygiene Service</li>
+          <li class="w3-padding-16"> Fumigations </li>
+          <li class="w3-padding-16"> - </li>
+          <li class="w3-padding-16"> - </li>
+          <li class="w3-padding-16"> - </li>
+          <li class="w3-padding-16"> - </li>
+            <h2> - </h2>
+            <span class="w3-opacity"> - </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Our Team -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Our Team.</b></h1>
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
+    <p>Meet our thoughtfully chosen team of professionals. </p>
+
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/team/Paul.jpg" alt="Paul" style="width:100%">
+        <div class="w3-container">
+          <h3>Paul Esterhuizen</h3>
+          <p class="w3-opacity"><b>Director</b> | Sales Manager</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/team/Ryan.jpg" alt="Ryan" style="width:100%">
+        <div class="w3-container">
+          <h3>Ryan Samuels</h3>
+          <p class="w3-opacity">Service Manager</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/team/" alt="George" style="width:100%">
+        <div class="w3-container">
+          <h3>George Smith</h3>
+          <p class="w3-opacity">Founder & CEO</p>
+          <p></p>
+        </div>
+      </div>
+    </div -->
+  </div>
+
+  <!-- Contact -->
+  <div id="contact_id" class="w3-container" style="margin-top:75px">
+
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Contact Us.</b></h1>
+
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
+    <p>Please send your message below. We will contact you shortly.</p>
+    <form id="contact-form">
+        <input type="hidden" name="contact_number" id="count">
+
+        <label>Name</label>
+        <input class="w3-input w3-border" placeholder="Enter your name" type="text" name="user_name" required>
+
+        <br>
+        <label>Email</label>
+        <input class="w3-input w3-border" placeholder="Enter a valid email" type="email" name="user_email" required>
+
+        <br>
+        <label>Message</label>
+        <textarea class="w3-input w3-border" placeholder="Your message" type="text" name="message" rows="4" required></textarea>
+
+      <input type="submit" class="submtbtn"></input>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+
+<!-- Signiture -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+
+  <p class="w3-right">by <a href="https://www.jeanpierrejulius.com" title="Jean-Pierre J" target="_blank" class="w3-hover-opacity"><i class="fa fa-rocket"></i> Jean-Pierre J</a></p>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
