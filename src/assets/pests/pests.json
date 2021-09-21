@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "German Cockroach",
+    "avatar": "german-cockroach.png",
+    "sub": "cockroach",
+    "info": "<ul class=\"normal\">Typically found in: <li>In and around homes, apartments, supermarkets, food processing plants, hotels and restaurants and public transport.</li><li>Ships, especially cruise and Naval ships can be sources of heavy infestations.</li></ul>" 
+  },
+  {
+    "id": 2,
+    "name": "American Cockroach",
+    "avatar": "american-cockroach.png",
+    "sub": "cockroach",
+    "info": "" 
+  },
+  {
+    "id": 11,
+    "name": "Oriental Cockroach",
+    "avatar": "oriental-cockroach.png",
+    "sub": "cockroach",
+    "info": "" 
+  },
+  {
+    "id": 3,
+    "name": "Blue Bottle Fly",
+    "avatar": "blue-bottle-fly.png",
+    "sub": "fly",
+    "info": "" 
+  },
+  {
+    "id": 5,
+    "name": "Fruit Fly",
+    "avatar": "fruit-fly.png",
+    "sub": "fly",
+    "info": "" 
+  },
+  {
+    "id": 6,
+    "name": "Green Bottle Fly",
+    "avatar": "green-bottle-fly.png",
+    "sub": "fly",
+    "info": "" 
+  },
+  {
+    "id": 7,
+    "name": "House Fly",
+    "avatar": "house-fly.png",
+    "sub": "fly",
+    "info": "" 
+  },
+  {
+    "id": 8,
+    "name": "House Mouse",
+    "avatar": "house-mouse.png",
+    "sub": "rodent",
+    "info": "" 
+  },
+  {
+    "id": 10,
+    "name": "Norway Rat",
+    "avatar": "norway-rat.png",
+    "sub": "rodent",
+    "info": "" 
+  },
+  {
+    "id": 13,
+    "name": "Black Rat",
+    "avatar": "roof-rat.png",
+    "sub": "rodent",
+    "info": "" 
+  },
+  {
+    "id": 4,
+    "name": "Confused Flour Beetle (Scavenger)",
+    "avatar": "confused-flour-beetle.png",
+    "sub": "stored",
+    "info": "" 
+  },
+  {
+    "id": 9,
+    "name": "Indian Meal Moth (External Feeder)",
+    "avatar": "indian-meal-moth.png",
+    "sub": "stored",
+    "info": "" 
+  },
+  {
+    "id": 12,
+    "name": "Rice Weevil (Internal Feeder)",
+    "avatar": "rice-weevil.png",
+    "sub": "stored",
+    "info": "" 
+  },
+  {
+    "id": 14,
+    "name": "Yellow Meal Worm (Secondary Pest)",
+    "avatar": "yellow-meal-worm.png",
+    "sub": "stored",
+    "info": "" 
+  }
+]
