@@ -1,0 +1,40 @@
+@tailwind base;
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  @apply my-2;
+}
+
+h1 {
+  @apply text-5xl;
+  @apply text-gray-400;
+  @apply font-bold;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply text-gray-400;
+  @apply font-bold;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply text-gray-600;
+}
+
+h4 {
+  @apply text-xl;
+  @apply text-gray-700;
+}
+
+h5 {
+  @apply text-lg;
+  @apply text-gray-700;
+}
+
+@tailwind components;
+@tailwind utilities;
