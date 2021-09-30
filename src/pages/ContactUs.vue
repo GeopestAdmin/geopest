@@ -540,6 +540,22 @@
                 Send Message
               </button>
             </div>
+            <div class="mt-8">
+              42 Heldersig Road,
+              Thornton,
+              7460
+              <div class="w-full">
+                <a class="inline-block" href="https://twitter.com/pest_geo" target="_blank">
+                  <img src="@/assets/icons/twitter.svg" />
+                </a>
+                <a class="inline-block" href="https://www.facebook.com/Geo-Pest-106971895077213/" target="_blank">
+                  <img src="@/assets/icons/facebook.svg" />
+                </a>
+                <a class="inline-block" href="https://www.instagram.com/geo.pest/" target="_blank" >
+                  <img src="@/assets/icons/instagram.svg" />
+                </a>
+              </div>
+            </div>
           </form>
         </div>
       </div>
