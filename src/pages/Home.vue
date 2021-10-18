@@ -51,11 +51,11 @@ export default {
     return {
       homeImages: [
         "installation.png",
-        "survey.png",
+        "austrian-fogging.png",
         "inspection.png",
-        "presentation.png"
+        "service-vehicles.png"
       ],
-      selected: "survey.png",
+      selected: "austrian-fogging.png",
       intervalID: "",
       index: 0
     }
