@@ -51,6 +51,7 @@ export default {
     return {
       homeImages: [
         "installation.png",
+        "presentation.png",
         "austrian-fogging.png",
         "inspection.png",
         "service-vehicles.png"
