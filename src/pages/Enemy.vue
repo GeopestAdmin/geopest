@@ -1,7 +1,7 @@
 <template>
   <div class="home-landing">
     <div class="home-inner">
-      <div class="p-2 w-full bg-white bg-opacity-90 rounded-lg md:p-4">
+      <div class="p-2 mb-2 w-full bg-white bg-opacity-90 rounded-lg md:p-4">
         <h2>Know Your Enemy</h2><h4>Getting to Know the Most Common Pest Threats to Your Productivity</h4>
         <hr class="main-hr" />
         <p>Geo Pest has a team of highly qualified technicians who are proficient in the life-cycles, habits and havoc wreaked by the biggest pest baddies in the business. Here are some of the baddies whom we know intimately, especially how to get rid of them effectively. Be warned, you will experience heightened anxiety and stress while getting to know the enemy. But, be assured, Geo Pest has your back, we know all the proven and effective measures to get rid of these pests in a flash.</p>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="p-4 bg-white bg-opacity-95 rounded-lg">
+      <div class="p-4 mb-2 bg-white bg-opacity-95 rounded-lg">
         <div>
           <h3>{{ selected.name }}</h3><hr class="main-hr" />
           <div>
@@ -227,6 +227,9 @@
         </div>
       </div>
     </div>
+    <a class="made-by" href="https://www.gatiepslist.co.za" target="_blank">
+      <img src="@/assets/madeby.png" class="made-by-img" />
+    </a>
   </div>
 </template>
 <script>

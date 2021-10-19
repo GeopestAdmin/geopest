@@ -1,7 +1,7 @@
 <template>
   <div class="home-landing">
     <div class="home-inner">
-      <div class="p-2 w-full bg-white bg-opacity-95 rounded-lg md:p-4">
+      <div class="p-2 mb-2 w-full bg-white bg-opacity-95 rounded-lg md:p-4">
         <div class="w-full text-center">
           <h2>Our Service Protocol</h2>
           <h4>The Way We Do What We Do</h4>
@@ -57,6 +57,9 @@
         </div>
       </div>
     </div>
+    <a class="made-by" href="https://www.gatiepslist.co.za" target="_blank">
+      <img src="@/assets/madeby.png" class="made-by-img" />
+    </a>
   </div>
 </template>
 <script>

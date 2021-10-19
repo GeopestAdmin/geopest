@@ -2,7 +2,7 @@
   <div>
     <div class="home-landing">
       <div class="home-inner">
-        <div class="p-2 w-full grid gap-8 grid-cols-1 md:grid-cols-2 mx-auto bg-white text-gray-900 rounded-lg md:p-4">
+        <div class="p-2 mb-2 w-full grid gap-8 grid-cols-1 md:grid-cols-2 mx-auto bg-white text-gray-900 rounded-lg md:p-4">
           <div class="flex flex-col">
             <div>
               <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Contact Us!</h2>
@@ -559,6 +559,9 @@
           </form>
         </div>
       </div>
+      <a class="made-by" href="https://www.gatiepslist.co.za" target="_blank">
+        <img src="@/assets/madeby.png" class="made-by-img" />
+      </a>
     </div>
   </div>
 </template>
