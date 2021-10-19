@@ -16,7 +16,7 @@
         <img class="tool-image" src="@/assets/covid.png" />
       </div>
     </div>
-    <a class="made-by" href="https://www.gatiepslist.co.za" target="_blank">
+    <a class="made-by" href="https://www.gatiepslist.co.za/#/managesocials" target="_blank">
       <img src="@/assets/madeby.png" class="made-by-img" />
     </a>
   </div>
