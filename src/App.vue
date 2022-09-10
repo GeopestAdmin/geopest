@@ -75,13 +75,26 @@ export default {
 .home-inner {
   @apply px-3;
   @apply pt-32;
-  @apply pb-4;
+  /* @apply pb-4; */
   @apply mx-auto;
   @apply w-full;
-  @apply h-full;
+  /* @apply min-h-full; */
+  @apply h-auto;
   @apply grid;
   @apply grid-cols-1;
   @apply gap-4;
+}
+
+.made-by {
+  @apply mb-2;
+  @apply mr-4;
+  @apply text-white;
+  @apply float-right;
+}
+
+.made-by-img {
+  @apply h-8;
+  @apply rounded;
 }
 
 @screen md {

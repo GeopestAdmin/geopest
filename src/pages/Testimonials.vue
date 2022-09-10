@@ -1,7 +1,7 @@
 <template>
   <div class="home-landing">
     <div class="home-inner">
-      <div class="p-2 w-full bg-white bg-opacity-95 rounded-lg md:p-4">
+      <div class="p-2 mb-2 w-full bg-white bg-opacity-95 rounded-lg md:p-4">
         <a class="test-card" href="./../../static/henties.pdf" target="_blank">
           <blockquote class="m-8">
             <p class= "font-semibold"> "I haven’t been this happy with a service provider in ages and I’m very glad that I made the decision to move my business." </p>
@@ -56,6 +56,9 @@
         </a>
       </div>
     </div>
+    <a class="made-by" href="https://www.gatiepslist.co.za/#/managesocials" target="_blank">
+      <img src="@/assets/madeby.png" class="made-by-img" />
+    </a>
   </div>
 </template>
 <script>

@@ -1,10 +1,10 @@
 <template>
   <div class="home-landing">
     <div class="home-inner">
-      <div name="fade" class="backdrop-filter backdrop-blur rounded-xl my-4">
+      <div name="fade" class="backdrop-filter backdrop-blur rounded-xl my-2">
         <img class="rounded-xl" :src="require(`@/assets/${selected}`)" />
       </div>
-      <div class="my-4 p-4 bg-white bg-opacity-95 rounded-xl">
+      <div class="my-2 p-4 bg-white bg-opacity-95 rounded-xl">
         <div class="text-section">
           <p>
             Geo Pest is a pest elimination company offering a wide range of pest control and hygiene services within the commercial sector to ensure a cleaner, safer, and healthier environment. 
@@ -37,6 +37,9 @@
         </div>
       </div>
     </div>
+    <a class="made-by" href="https://www.gatiepslist.co.za/#/managesocials" target="_blank">
+      <img src="@/assets/madeby.png" class="made-by-img" />
+    </a>
   </div>
 </template>
 <script>
@@ -51,11 +54,12 @@ export default {
     return {
       homeImages: [
         "installation.png",
-        "survey.png",
+        "presentation.png",
+        "austrian-fogging.png",
         "inspection.png",
-        "presentation.png"
+        "service-vehicles.png"
       ],
-      selected: "survey.png",
+      selected: "austrian-fogging.png",
       intervalID: "",
       index: 0
     }
