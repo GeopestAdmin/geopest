@@ -54,6 +54,59 @@
           </div>
           <p class="test-click"><i>Click to view full letter</i></p>
         </a>
+        <!--NEW-->
+        <a class="test-card" href="./../../static/nutripick.pdf" target="_blank">
+          <blockquote class="m-8">
+            <p class= "font-semibold"> "They do an excellent job, are always punctual and offer the most competitive rates in town." </p>
+          </blockquote>
+          <div class= "test-card-bottom">
+            <img src="@/assets/testimonials/nutripick.webp" alt="" class="h-24 rounded-lg border-4 border-white md:mr-4">
+            <div>
+              <p class= "font-bold">Paul Lawson</p>
+              <p>Food Safety and Health & Safety</p>
+            </div>
+          </div>
+          <p class="test-click"><i>Click to view full letter</i></p>
+        </a>
+        <a class="test-card" href="./../../static/freshnessfirst.pdf" target="_blank">
+          <blockquote class="m-8">
+            <p class= "font-semibold"> "The change from our previous pest control company to Geo Pest, was for sure a very good change." </p>
+          </blockquote>
+          <div class= "test-card-bottom">
+            <img src="@/assets/testimonials/freshnessfirst.webp" alt="" class="h-24 rounded-lg border-4 border-white md:mr-4">
+            <div>
+              <p class= "font-bold">ST de Wet</p>
+              <p>Audit Manager</p>
+            </div>
+          </div>
+          <p class="test-click"><i>Click to view full letter</i></p>
+        </a>
+        <a class="test-card" href="./../../static/capenatural.pdf" target="_blank">
+          <blockquote class="m-8">
+            <p class= "font-semibold"> "They provide a professional service, are always punctual, reliable and attend to every detail." </p>
+          </blockquote>
+          <div class= "test-card-bottom">
+            <img src="@/assets/testimonials/capenatural.webp" alt="" class="h-24 rounded-lg border-4 border-white md:mr-4">
+            <div>
+              <p class= "font-bold">Michelle Brown</p>
+              <p>Quality Assurance Manager</p>
+            </div>
+          </div>
+          <p class="test-click"><i>Click to view full letter</i></p>
+        </a>
+        <a class="test-card" href="./../../static/aqunion.pdf" target="_blank">
+          <blockquote class="m-8">
+            <p class= "font-semibold"> "I plan to always work with them and can recommend their services and products without reservation" </p>
+          </blockquote>
+          <div class= "test-card-bottom">
+            <img src="@/assets/testimonials/aqunion.webp" alt="" class="h-24 rounded-lg border-4 border-white md:mr-4">
+            <div>
+              <p class= "font-bold">Ashraf Daniels</p>
+              <p>Quality Assurance Manager</p>
+            </div>
+          </div>
+          <p class="test-click"><i>Click to view full letter</i></p>
+        </a>
       </div>
     </div>
     <a class="made-by" href="https://www.gatiepslist.co.za/#/managesocials" target="_blank">
